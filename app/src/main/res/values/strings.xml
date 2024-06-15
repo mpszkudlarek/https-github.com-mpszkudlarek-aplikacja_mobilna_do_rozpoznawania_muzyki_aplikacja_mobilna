@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">MobilneSystemy</string>
+    <string name="app_name">mobilki</string>
+    <string name="create_new_account">Create new account</string>
+    <string name="already_registered_n_log_in_here">Already registered?  Log in here</string>
+    <string name="email">email</string>
+    <string name="username">Username</string>
 </resources>

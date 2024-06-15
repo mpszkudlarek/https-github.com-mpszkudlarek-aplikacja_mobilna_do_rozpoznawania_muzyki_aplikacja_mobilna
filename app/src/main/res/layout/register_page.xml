@@ -29,31 +29,30 @@
             android:textAlignment="center"
             android:textColor="@color/white"
             android:textColorHint="@color/white"
-            android:textSize="50sp"
-            />
+            android:textSize="50sp" />
 
-        <EditText
+        <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/comforta_bold"
             android:layout_marginBottom="40dp"
-            android:autofillHints=""
-            android:inputType="text"
+            android:clickable="true"
+            android:focusable="true"
+            android:fontFamily="@font/comforta_bold"
+            android:gravity="center"
+            android:onClick="onLoginTextClick"
             android:text="@string/already_registered_n_log_in_here"
             android:textAlignment="center"
             android:textColor="@color/white"
-            android:textColorHint="@color/white"
             android:textSize="12sp" />
-
 
         <EditText
             android:id="@+id/username_input"
-            android:fontFamily="@font/comfortaa"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:autofillHints=""
             android:background="@drawable/rounded_corner"
+            android:fontFamily="@font/comfortaa"
             android:hint="@string/username"
             android:inputType="text"
             android:padding="12dp"
@@ -66,9 +65,9 @@
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:fontFamily="@font/comfortaa"
             android:autofillHints=""
             android:background="@drawable/rounded_corner"
+            android:fontFamily="@font/comfortaa"
             android:hint="@string/email"
             android:inputType="textEmailAddress"
             android:padding="12dp"
@@ -80,10 +79,10 @@
         <EditText
             android:id="@+id/password_input"
             android:layout_width="300dp"
-            android:fontFamily="@font/comfortaa"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:background="@drawable/rounded_corner"
+            android:fontFamily="@font/comfortaa"
             android:hint="Password"
             android:inputType="textPassword"
             android:padding="12dp"
@@ -97,11 +96,14 @@
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="32dp"
-            android:backgroundTint="@color/black"
-            android:padding="8dp"
+            android:background="@drawable/rounded_corner"
             android:fontFamily="@font/comfortaa"
+            android:padding="8dp"
+            android:shadowColor="@color/black"
             android:text="Login"
+            android:textAlignment="center"
             android:textColor="@color/white"
+            android:textColorLink="@color/black"
             android:textSize="20sp" />
 
 

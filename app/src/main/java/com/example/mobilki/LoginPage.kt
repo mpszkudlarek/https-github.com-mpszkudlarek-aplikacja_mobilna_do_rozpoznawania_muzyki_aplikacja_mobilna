@@ -1,7 +1,9 @@
 package com.example.mobilki
 
+import android.content.Intent
 import android.os.Bundle
 import android.util.Log
+import android.view.View
 import android.widget.EditText
 import androidx.appcompat.app.AppCompatActivity
 
@@ -15,12 +17,6 @@ class LoginPage : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        setContentView(R.layout.home_page)
-
-        usernameInput = findViewById(R.id.username_input)
-        passwordInput = findViewById(R.id.password_input)
-        loginBtn = findViewById(R.id.login_btn)
-
         loginBtn.setOnClickListener {
             val username = usernameInput.text.toString()
             val password = passwordInput.text.toString()
@@ -28,6 +24,14 @@ class LoginPage : AppCompatActivity() {
 
         }
 
+        fun onLoginTextClick(view: View) {
+            // Intent to navigate to the login activity or perform any action
+            val intent = Intent(this, LoginActivity::class.java)
+            startActivity(intent)
+        }
+
 
     }
+
+
 }
