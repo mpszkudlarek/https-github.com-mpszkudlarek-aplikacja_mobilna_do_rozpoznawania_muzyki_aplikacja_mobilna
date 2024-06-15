@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_background"
+    android:gravity="center"
+    android:padding="16dp"
+    tools:context=".LoginPage">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="1dp"
+            android:autofillHints=""
+            android:fontFamily="@font/comforta_bold"
+            android:padding="13dp"
+            android:text="@string/create_new_account"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="50sp"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/comforta_bold"
+            android:layout_marginBottom="40dp"
+            android:autofillHints=""
+            android:inputType="text"
+            android:text="@string/already_registered_n_log_in_here"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="12sp" />
+
+
+        <EditText
+            android:id="@+id/username_input"
+            android:fontFamily="@font/comfortaa"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:autofillHints=""
+            android:background="@drawable/rounded_corner"
+            android:hint="@string/username"
+            android:inputType="text"
+            android:padding="12dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/email_input"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/comfortaa"
+            android:autofillHints=""
+            android:background="@drawable/rounded_corner"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            android:padding="12dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="20sp" />
+
+
+        <EditText
+            android:id="@+id/password_input"
+            android:layout_width="300dp"
+            android:fontFamily="@font/comfortaa"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rounded_corner"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:padding="12dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="20sp" />
+
+
+        <Button
+            android:id="@+id/login_btn"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:backgroundTint="@color/black"
+            android:padding="8dp"
+            android:fontFamily="@font/comfortaa"
+            android:text="Login"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+</RelativeLayout>
