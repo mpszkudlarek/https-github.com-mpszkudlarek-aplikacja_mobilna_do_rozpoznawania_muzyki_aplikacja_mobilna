@@ -11,7 +11,7 @@
 
 
     <ImageView
-        android:id="@+id/icon_left_history_page"
+        android:id="@+id/icon_left"
         android:layout_width="73dp"
         android:layout_height="64dp"
         android:layout_alignParentStart="true"
@@ -23,7 +23,7 @@
         android:src="@drawable/icon_account_circle" />
 
     <ImageView
-        android:id="@+id/icon_right_history_page"
+        android:id="@+id/icon_right"
         android:layout_width="73dp"
         android:layout_height="64dp"
         android:layout_alignParentTop="true"
@@ -37,6 +37,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+
         android:layout_marginTop="150dp"
         android:gravity="start"
         android:orientation="vertical"
@@ -48,12 +49,13 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
             android:fontFamily="@font/comforta_bold"
-            android:text="Your favoriture tracks are:"
+            android:text="Your profile info:"
             android:textAlignment="center"
             android:textColor="@color/white"
             android:textSize="18sp" />
 
         <TextView
+            android:id="@+id/track_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
@@ -61,10 +63,33 @@
             android:gravity="start"
             android:paddingStart="40dp"
             android:paddingEnd="40dp"
-            android:text="-track 1"
+            android:text="mockup profile info"
             android:textColor="@color/white"
             android:textSize="16sp" />
 
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="60dp">
+
+        <Button
+            android:id="@+id/go_to_homepage"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="@color/black"
+            android:fontFamily="@font/comfortaa"
+            android:text="Go to homepage"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
 
     </LinearLayout>
 
