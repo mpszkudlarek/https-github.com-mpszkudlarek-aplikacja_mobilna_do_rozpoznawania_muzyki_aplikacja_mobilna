@@ -33,5 +33,7 @@ class LoginPage : AppCompatActivity() {
 
     }
 
+    fun onLoginTextClick(view: View) {}
+
 
 }

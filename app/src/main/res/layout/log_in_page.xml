@@ -17,21 +17,21 @@
         android:gravity="center"
         android:orientation="vertical">
 
-        <EditText
+        <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="1dp"
             android:autofillHints=""
+            android:fontFamily="@font/comforta_bold"
             android:padding="13dp"
             android:text="Login"
             android:textAlignment="center"
             android:textColor="@color/white"
             android:textColorHint="@color/white"
-            android:textSize="50sp"
-            android:fontFamily="@font/comforta_bold"/>
+            android:textSize="50sp" />
 
-        <EditText
+        <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="40dp"
@@ -50,9 +50,9 @@
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:fontFamily="@font/comfortaa"
             android:autofillHints=""
             android:background="@drawable/rounded_corner"
+            android:fontFamily="@font/comfortaa"
             android:hint="@string/username"
             android:inputType="text"
             android:padding="12dp"
@@ -61,14 +61,13 @@
             android:textSize="20sp" />
 
 
-
         <EditText
             android:id="@+id/password_input"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:fontFamily="@font/comfortaa"
             android:background="@drawable/rounded_corner"
+            android:fontFamily="@font/comfortaa"
             android:hint="Password"
             android:inputType="textPassword"
             android:padding="12dp"
@@ -82,16 +81,14 @@
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="32dp"
-            android:backgroundTint="@color/black"
             android:background="@drawable/rounded_corner"
-            android:textAlignment="center"
-            android:padding="8dp"
+            android:backgroundTint="@color/black"
             android:fontFamily="@font/comfortaa"
+            android:padding="8dp"
             android:text="sign up"
+            android:textAlignment="center"
             android:textColor="@color/white"
-            android:textSize="20sp"
-            />
-
+            android:textSize="20sp" />
 
 
     </LinearLayout>

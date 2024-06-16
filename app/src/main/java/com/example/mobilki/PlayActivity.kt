@@ -78,9 +78,10 @@ class PlayActivity : AppCompatActivity() {
             setAudioEncoder(MediaRecorder.AudioEncoder.AAC)
             setOutputFile("$dirPath$filename.mp3")
 
-            try{
+            try {
                 prepare()
-            }catch(_: IOException){}
+            } catch (_: IOException) {
+            }
 
             start()
         }

@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/login_background"
 
-    tools:context=".Recognize">
+    tools:context=".RecognizeActivity">
 
 
     <ImageView
@@ -39,27 +39,26 @@
         android:layout_width="300dp"
         android:layout_height="300dp"
         android:layout_centerInParent="true"
-        android:gravity="center"
-        android:textSize="102sp"
         android:fontFamily="@font/comforta_bold"
+        android:gravity="center"
+        android:text="1"
         android:textColor="@android:color/white"
-        android:text="1" />
+        android:textSize="102sp" />
 
     <TextView
         android:id="@+id/hold_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
         android:layout_below="@id/number_display"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="16dp"
-        android:text="Hold for 10 s"
         android:background="@drawable/rounded_corner"
         android:backgroundTint="@color/black"
-        android:textSize="30sp"
         android:fontFamily="@font/comfortaa"
         android:paddingHorizontal="24sp"
-        android:textColor="@android:color/white"/>
-
+        android:text="Hold for 10 s"
+        android:textColor="@android:color/white"
+        android:textSize="30sp" />
 
 
 </RelativeLayout>
