@@ -60,7 +60,7 @@
             android:layout_marginBottom="8dp"
             android:fontFamily="@font/comfortaa"
             android:gravity="start"
-            android:text="Title: "
+            android:text="Album: 2001"
             android:textColor="@color/white"
             android:textSize="16sp" />
 
@@ -71,7 +71,7 @@
             android:layout_marginBottom="8dp"
             android:fontFamily="@font/comfortaa"
             android:gravity="start"
-            android:text="Album: "
+            android:text="Artist: Dr. Dre"
             android:textColor="@color/white"
             android:textSize="16sp" />
 
@@ -82,7 +82,7 @@
             android:layout_marginBottom="8dp"
             android:fontFamily="@font/comfortaa"
             android:gravity="start"
-            android:text="Artist: "
+            android:text="Genre: Hip-hop "
             android:textColor="@color/white"
             android:textSize="16sp" />
 
@@ -93,7 +93,7 @@
             android:layout_marginBottom="8dp"
             android:fontFamily="@font/comfortaa"
             android:gravity="start"
-            android:text="Genre: "
+            android:text="Release year: 1999"
             android:textColor="@color/white"
             android:textSize="16sp" />
 
@@ -104,7 +104,7 @@
             android:layout_marginBottom="8dp"
             android:fontFamily="@font/comfortaa"
             android:gravity="start"
-            android:text="Release Year: "
+            android:text="title: Still D.R.E. (feat. Snoop Dogg)"
             android:textColor="@color/white"
             android:textSize="16sp" />
 

@@ -55,7 +55,6 @@
             android:textSize="18sp" />
 
         <TextView
-            android:id="@+id/track_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
@@ -63,9 +62,24 @@
             android:gravity="start"
             android:paddingStart="40dp"
             android:paddingEnd="40dp"
-            android:text="mockup profile info"
+            android:text="• Username: mpszkudlarek"
             android:textColor="@color/white"
             android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/comfortaa"
+            android:gravity="start"
+            android:paddingStart="40dp"
+            android:paddingEnd="40dp"
+            android:text="• Email: michalszkudlarek@gmail.com"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+
+
 
 
     </LinearLayout>
@@ -78,6 +92,7 @@
         android:gravity="center_horizontal"
         android:orientation="vertical"
         android:padding="60dp">
+
 
         <Button
             android:id="@+id/go_to_homepage"

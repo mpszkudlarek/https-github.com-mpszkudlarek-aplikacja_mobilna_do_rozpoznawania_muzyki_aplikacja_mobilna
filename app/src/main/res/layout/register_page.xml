@@ -42,7 +42,7 @@
             android:text="@string/already_registered_n_log_in_here"
             android:textAlignment="center"
             android:textColor="@color/white"
-            android:textSize="12sp" />
+            android:textSize="16sp" />
 
         <EditText
             android:id="@+id/username_input"

@@ -61,12 +61,112 @@
             android:gravity="start"
             android:paddingStart="40dp"
             android:paddingEnd="40dp"
-            android:text="-track 1"
+            android:text="• Dr. Dre - Still D.R.E (feat.Snopp Dogg)"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/comfortaa"
+            android:gravity="start"
+            android:paddingStart="40dp"
+            android:paddingEnd="40dp"
+            android:text="• Michael Jackson - Billie Jean"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/comfortaa"
+            android:gravity="start"
+            android:paddingStart="40dp"
+            android:paddingEnd="40dp"
+            android:text="• Eminem - Houdini"
             android:textColor="@color/white"
             android:textSize="16sp" />
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/comfortaa"
+            android:gravity="start"
+            android:paddingStart="40dp"
+            android:paddingEnd="40dp"
+            android:text="• ABBA - Dancing Queen"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/comfortaa"
+            android:gravity="start"
+            android:paddingStart="40dp"
+            android:paddingEnd="40dp"
+            android:text="• OutKast - ATLiens"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/comfortaa"
+            android:gravity="start"
+            android:paddingStart="40dp"
+            android:paddingEnd="40dp"
+            android:text="• The Weeknd - The Morning"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/comfortaa"
+            android:gravity="start"
+            android:paddingStart="40dp"
+            android:paddingEnd="40dp"
+            android:text="• Ms. Lauryn Hill - Killing Me Softly With His Song"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="60dp">
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="@color/black"
+            android:fontFamily="@font/comfortaa"
+            android:text="Edit favorite tracks"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+
+        <Button
+            android:id="@+id/go_to_homepage"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="@color/black"
+            android:fontFamily="@font/comfortaa"
+            android:text="Go to homepage"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
 
     </LinearLayout>
+
 
 
 </RelativeLayout>
